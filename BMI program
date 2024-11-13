@@ -1,0 +1,40 @@
+#include<stdio.h>
+int main()
+{
+    float weight,height,bmi;
+    printf("Enter weight in kilograms:");
+    scanf ("%f",&weight);
+    printf("Enter height in meters:");
+    scanf("%f",&height);
+
+    if(height<=0)
+    {
+        printf("enter height must be greater than zero\n");
+        return 1;
+    }
+    bmi=weight/(height*height);
+    printf("your body mass index(bmi)is:%2f\n",bmi);
+    if(bmi<18.5)
+    {
+        printf("category:underweight\n");
+    }
+    else if("bmi>=18.5&&bmi<24.9")
+    {
+      printf("category:normal weight\n" );
+    }
+    else if(bmi>=25&&bmi<29.9)
+    {
+        printf("category:overweight \n");
+    }
+    else
+    {
+        printf("category:obese\n");
+    }
+    return 0;
+}
+--------------------------------------------------------------------------
+output:
+Enter weight in kilograms:53.0
+Enter height in meters:65.0
+your body mass index(bmi)is:0.012544
+category:underweight
