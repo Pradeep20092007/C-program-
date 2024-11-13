@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main()
+{
+int a,b,c,total;
+printf("enter the number of tikets sold in the first week:");
+scanf("%d",&a);
+printf("enter the number of tikets sold in the second week:");
+scanf("%d",&b);
+printf("enter the number of tikets sold in the third week:")
+scanf("%d",&c);
+total=a+b+c;
+printf("total number of tickets sold:%d\n",total);
+}
+------------------------------------------------------------------------
+output:
+
+enter the number of tikets sold in the first week:56
+enter the number of tikets sold in the second week:23
+enter the number of tikets sold in the third week:65
+total number of tickets sold:144
