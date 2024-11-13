@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main()
+{
+    int r;
+    float pi=3.14,area;
+    printf("enter a radius:");
+    scanf("%d",& r);
+    printf("enter a pi:%f",pi);
+    area=pi*r*r;
+    printf("area of circle is:%f",area);
+}
+--------------------------------------------
+output:
+enter a radius:34.89
+enter a pi:3.140000area of circle is:3629.840088
+__________________________________________________________
