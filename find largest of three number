@@ -1,0 +1,50 @@
+#include<stdio.h>
+int main()
+{
+    float a,b,c;
+    printf("enter three numbers:\n");
+    printf("enter num 1:");
+    scanf("%f",&a);
+    printf("enter num 2:");
+    scanf("%f",&b);
+    printf("enter num 3:");
+    scanf("%f",&c);
+    if(a>=b&&a>=c)
+    {
+        printf("the largest number number is %.2f\n",a);
+    }
+    else if (b>+a&&b>=c)
+    {
+        printf("the largest number is:%.2f\n",b);
+    }
+    else
+    {
+        printf("the largest number is :%.2f\n",c);
+    }
+    return 0;
+}
+---------------------------------------------------------------------------------------
+output:
+
+    enter three numbers:
+enter num 1:54
+enter num 2:55
+enter num 3:25
+the largest number is:55.00
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
