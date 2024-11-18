@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    int r,h,t;
+    const float pi=3.14;
+    scanf("%d",&r);
+    printf("enter a radius:%d\n",r);
+    scanf("%d",&h);
+    printf("enter a height:%d\n",h);
+    t=pi*r*r*h;
+    printf("answer is :%d",t);
+    return 0;
+}
+----------------------------------------------------------------------------------------------
+output:
+enter a radius:3
+enter a height:8
+answer is :226
+-------------------------------------------------------------------------------------------------
