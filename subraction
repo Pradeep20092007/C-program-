@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,sub;
+    scanf("%d",&a);
+    printf("first value:%d\n",a);
+    scanf("%d",&b);
+    printf("second value :%d\n",b);
+    sub=a-b;
+    printf("subract value is:%d",sub);
+    return 0;
+}
+---------------------------------------------------------------------------------------------------
+output:
+first value:100
+second value :50
+subract value is:50
+----------------------------------------------------------------------------------------------------
